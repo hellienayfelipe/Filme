@@ -93,7 +93,7 @@ body{
     transform: scale(1.5);
 }
 
-.botao-escuro{
+.botao-sombrio{
     background-color: white;
     padding: 12px;
     font-family: Arial;
@@ -107,9 +107,31 @@ body{
     text-transform: uppercase;
 }
 
-.botao-escuro:hover{
+.botao-sombrio:hover{
     background-color: blue;
     color: white;
     border-color: white;
     transform: scale(1.5);
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.resumo{
+    width: 400px;
+    color: f8f8f8;
+    font-size: 18px;
+    font-family: arial;
+    line-height: 22px;
+    margin-right: 50px;
+    text-align:  justify;
+}
+
+.voltar{
+    color: white;
+    font-weight: bold;
 }
